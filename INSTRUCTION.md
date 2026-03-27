@@ -20,5 +20,11 @@ docker run -d `
   --name todoapp `
   --network todo-net `
   -e DB_HOST=mysql-local `
-  -p 8000:8000 `
+  -p 8000:8080 `
   olexandrkv/todoapp-public:2.0.0
+
+https://hub.docker.com/r/olexandrkv/todoapp-public
+https://hub.docker.com/r/olexandrkv/mysql-local-public
+
+Відкрийте браузер і перейдіть за адресою:
+http://localhost:8000
